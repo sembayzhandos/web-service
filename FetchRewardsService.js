@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 global.myPoints = [];
 
-var pointRouter = require("./API /route");
+var pointRouter = require("./API/route");
 app.use("/", pointRouter);
 
 app.listen(port);
