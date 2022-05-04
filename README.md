@@ -16,9 +16,9 @@ The coding exercise includes:
 4. Run the command `npm run start`
 5. WEB service will start on 8000 port
 
-### API
+## API
 
-GET Points Balance
+### GET Points Balance
 
 `GET` `http://localhost:8000/point`
 
@@ -27,7 +27,7 @@ GET /point HTTP/1.1
 Host: localhost:8000
 ```
 
-Reward Points
+### Reward Points
 
 `POST` `http://localhost:8000/point`
 
@@ -39,7 +39,7 @@ Content-Length: 59
 
 payer=DANNON&points=1000&timestamp=2020-11-02T14%3A00%3A00Z
 ```
-Spend Points
+### Spend Points
 
 `POST` `http://localhost:8000/point/spend`
 
